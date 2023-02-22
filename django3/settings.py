@@ -155,3 +155,5 @@ EMAIL_USE_TSL = True
 EMAIL_HOST_PASSWORD = 'minha_senha'
 DEFAULT_FROM_EMAIL = 'contato@fusion.com.br'
 """
+
+LOGOUT_REDIRECT_URL = 'rota_index'

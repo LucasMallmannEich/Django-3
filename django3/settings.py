@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 ]
 
 CSRF_COOKIE_SECURE = True
+CSRF_TRUSTED_ORIGINS = ['https://web-production-79fc.up.railway.app']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

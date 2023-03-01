@@ -18,9 +18,6 @@ class IndexView(FormView):
         if len(context['features']) % 2 == 0:
             metade1 = len(context['features'])/2
             metade2 = metade1
-        else:
-            metade1 = int(len(context['features'])/2 + 0.5)
-            metade2 = metade1 - 1
         context['metade1'] = str(int(metade1)) + ':'
         context['metade2'] = ':' + str(int(metade2))
         return context
